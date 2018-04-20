@@ -28,6 +28,21 @@ h1 {
   font-size: 1.5rem;
 }
 
+.navheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  width: 50vw;
+  font-size: 1.5rem;
+
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
 #header-right {
   padding: 0 1rem;
   list-style-type: none;
