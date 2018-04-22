@@ -14,7 +14,7 @@ header {
 #logo-container {
   display: flex;
   align-items: center;
-  width: 5vw;
+  width: 175px;
 }
 
 #logo-container img {
@@ -32,21 +32,36 @@ h1 {
 .navheader{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  text-align: left;
-  align-items: center;
-  width: 50vw;
-  font-size: 1.5rem;
-
+  height: 40px;
+  margin: 0;
+  padding: 0;
 }
+
+#navulist{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 75vw;
+  text-align: center;
+  align-items: center;
+}
+#navlist{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+}
+
 a:visited, a:link{
   color: white;
   text-decoration: none;
 }
 
 a:hover, a:active{
-  color: blue;
+  color: greenyellow;
   text-decoration: none;
+  transition: 0.4s;
 }
 
 #header-right {
