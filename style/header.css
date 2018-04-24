@@ -6,6 +6,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
+  height: 50px;
 }
 /* 
   An id should be used just once, to share the same style with multiple
@@ -14,7 +15,7 @@ header {
 #logo-container {
   display: flex;
   align-items: center;
-  width: 175px;
+  width: 200px;
 }
 
 #logo-container img {
@@ -29,36 +30,21 @@ h1 {
   font-size: 1.5rem;
 }
 
-.navheader{
-  display: flex;
-  flex-direction: row;
-  height: 40px;
-  margin: 0;
-  padding: 0;
-}
-
-#navulist{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  width: 75vw;
-  text-align: center;
-  align-items: center;
-}
-#navlist{
-  margin: 0;
-  padding: 0;
+#nav {
   list-style-type: none;
-  display: inline;
 }
 
-a:visited, a:link{
+#nav li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+#nav a:visited, #nav a:link {
   color: white;
   text-decoration: none;
 }
 
-a:hover, a:active{
+a:hover, a:active {
   color: greenyellow;
   text-decoration: none;
   transition: 0.4s;
@@ -74,9 +60,9 @@ a:hover, a:active{
 }
 
 .social-icon {
-  padding: 0.5rem;
+  padding: 0 0.5rem;
   box-sizing: border-box;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .social-icon:last-child::before  {
@@ -89,9 +75,9 @@ a:hover, a:active{
   color: #F0F0F0;
 }
 
-.social-icon a i:hover {
+.zoomin-on-hover:hover {
   transition: 0.8s;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 #discord-icon:hover {
