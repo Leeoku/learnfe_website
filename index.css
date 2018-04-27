@@ -1,5 +1,6 @@
 @import './style/normalize.css';
 /* Do not remove or modify normalize.css file for more info visit: https://necolas.github.io/normalize.css/ */
+@import './style/animations.css';
 @import './style/header.css';
 @import './style/home-section.css';
 @import './style/about-section.css';

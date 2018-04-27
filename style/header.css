@@ -7,6 +7,7 @@ header {
   top: 0;
   width: 100vw;
   height: 50px;
+  z-index: 100;
 }
 /* 
   An id should be used just once, to share the same style with multiple
@@ -73,11 +74,6 @@ a:hover, a:active {
 .social-icon a {
   text-decoration: none;
   color: #F0F0F0;
-}
-
-.zoomin-on-hover:hover {
-  transition: 0.8s;
-  font-size: 1.4rem;
 }
 
 #discord-icon:hover {
