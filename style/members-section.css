@@ -1,4 +1,22 @@
 #members {
   color: #212121 !important;
   background-color: #F3E30D;
+  padding: 0;
+}
+
+#all-members {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.member {
+  height: 150px;
+  width: 150px;
+}
+
+.member img {
+  height: 150px;
+  width: 150px;
 }

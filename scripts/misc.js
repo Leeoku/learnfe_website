@@ -32,4 +32,5 @@ function createSlides(slides) {
 
 (function(){
   createSlides(slidesSet);
+  renderMembers()
 })();
