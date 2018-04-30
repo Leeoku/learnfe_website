@@ -22,3 +22,10 @@ section {
   box-sizing: border-box;
 }
 
+/* Custom Styles */
+
+.paragraph-title {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}

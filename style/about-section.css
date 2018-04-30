@@ -1,3 +1,83 @@
 #about {
   background-color: #3BA6DD;
+  display: flex;
+  padding: 0 !important;
+  color: #212121;
+}
+
+.horizontal-half {
+  width: 50%;
+  text-align: center;
+  padding: 55px 1rem 0 1rem;
+  background: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pull-top {
+  justify-content: flex-start !important;
+}
+
+.two-column-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.two-column-list li {
+  width: 100%;
+  justify-content: center;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+#techs li div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#techs li div span {
+  display: inline-block;
+  width: 100%;
+  padding: 0.4rem 0;
+  box-sizing: border-box;
+}
+
+#techs .fab:hover {
+  transition: 0.4s;
+}
+
+.fa-html5:hover {
+  color: #ea6a00;
+}
+
+.fa-css3-alt:hover {
+  color: #45a4e2;
+}
+
+.fa-js:hover {
+  color: #F3E30D;
+}
+
+.fa-react:hover {
+  color: #6bd9ff;
+}
+
+.fa-npm:hover {
+  color: #c73a33;
+}
+
+.fa-database:hover {
+  color: #444444;
+}
+
+.fa-node-js:hover {
+  color: #88ce00;
 }
