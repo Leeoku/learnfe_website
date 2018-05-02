@@ -19,8 +19,22 @@
   justify-content: flex-start !important;
 }
 
+.workflow{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  }
+
+.workflowtext{
+  padding: 15px;
+}
+
 .two-column-list {
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
   list-style-type: none;
   padding: 0;
@@ -50,8 +64,19 @@
   box-sizing: border-box;
 }
 
-#techs .fab:hover {
+#techs .workflowext .fab:hover {
   transition: 0.4s;
+}
+
+.fa-users:hover{
+  color:#3B5998;
+}
+.fa-terminal:hover{
+  color:#00FF00;
+}
+
+.fa-code-branch:hover{
+  color:#fc6d26;
 }
 
 .fa-html5:hover {
