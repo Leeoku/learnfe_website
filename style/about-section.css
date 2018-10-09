@@ -23,12 +23,12 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 0;
   margin: 0;
   }
 
-.workflowtext{
+.workflow-text{
   padding: 15px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .fa-users:hover{
-  color:#3B5998;
+  color:#7aa9f4;
 }
 .fa-terminal:hover{
   color:#00FF00;
